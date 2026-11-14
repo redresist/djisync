@@ -1,0 +1,6 @@
+*.db
+*.lock
+*.log
+bot_token*.txt
+__pycache__/
+*.part
