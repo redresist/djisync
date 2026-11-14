@@ -105,4 +105,4 @@ Mic match results live in a second table (`micmatch`: video, wav, offset_s, corr
 - [x] mic organize + clock-offset learning + buffered slices
 - [x] SQLite ledger + report/rescan
 - [x] Telegram completion notifications via redgoon bot
-- [ ] web UI (FastAPI on 127.0.0.1:8775, exposed at `/djisync`) - in progress
+- [x] web UI (FastAPI on 127.0.0.1:8775, served at `/djisync`) - live; Task Scheduler auto-start `djisync-webapp`
